@@ -1,0 +1,46 @@
+{
+  "posts": [
+    {
+      "name": "ashiq",
+      "email": "ashiqrahman55@gmail.com",
+      "id": 1
+    },
+    {
+      "email": "alinanil121@gmail.com",
+      "department": "",
+      "complaint": "",
+      "id": 2
+    },
+    {
+      "email": "cyculo@vomoto.com",
+      "department": "",
+      "complaint": "haudgydgsuh",
+      "id": 3
+    },
+    {
+      "email": "srilaxmy761@gmail.com",
+      "department": "",
+      "complaint": "tma",
+      "id": 4
+    },
+    {
+      "email": "srilaxmy761@gmail.com",
+      "department": "",
+      "complaint": "ssssssssssss",
+      "id": 5
+    },
+    {
+      "email": "srilaxmy761@gmail.com",
+      "department": "CIVIL",
+      "complaint": "yyyyyyyyyyyyyyyyyyyyyyyyyyyy",
+      "id": 6
+    },
+    {
+      "email": "cyculo@vomoto.com",
+      "department": "AUTO MOBILE",
+      "complaint": "yyyyyyyyyyyyyyyyyyyyyyyyy",
+      "id": 7
+    }
+  ],
+  "comments": []
+}

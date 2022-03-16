@@ -1,0 +1,45 @@
+
+<div class="wrapper">
+  <!--NAVIGATION-->
+         <nav>
+            <img src="../../../assets/logo.jpg" class="img" alt="logo"> 
+            <ul>
+              <li><a href="#">HOME</a></li>
+              <li><a href="academics">ACADEMICS</a></li> 
+             <li><a href="grievance">GRIEVANCE</a></li>
+             <li><a href="gallery">GALLERY</a></li>
+             <li><a href="about">ABOUT</a></li>
+               
+            </ul>
+         </nav>
+  <!--END OF NAVIGATION-->
+        
+     </div>
+
+<div class="container" >
+  <div class="card">
+<form action="" method="post" [formGroup]="projectForm" (submit)="project(projectForm)">
+    <div class="form-group ">
+      <label for="exampleFormControlInput1">Email address</label>
+      <input id="email" class="form-control"formControlName="email" type="email" placeholder="Enter Email address" name="email" required>
+    </div>
+
+    <div class="form-group ">
+      <label for="department"> Select Department</label>
+      <select class="form-control" formControlName="department" id="department" name="department">
+        <option>CSE</option>
+        <option>AUTO MOBILE</option>
+        <option>CIVIL</option>
+        <option>ECE</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="complaint">Enter complaint</label>
+      <textarea [rows]="5" [cols]="30" class="form-control" formControlName="complaint" type="text" placeholder="Enter your complaint" name="complaint" required></textarea>
+    </div>
+
+    <button  type="submit" label="Submit" class="btn btn-primary btn-lg btn-block" [disabled]="!projectForm.valid">Submit</button>
+  </form>
+</div>
+</div>
+
