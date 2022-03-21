@@ -33,5 +33,68 @@ nav ul li:hover{
     background-color: coral;
     color: #000;
     font-weight: bold;
-    font-size: 1.2rem;
+    /* font-size: 1.2rem; */
 }
+
+
+/* ashiq code */
+
+
+
+/* styling card */
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+
+
+/*  Adding different images in card */
+.card1{
+
+    background-image: url('../../../assets/gallery1.jpg');
+}
+
+.card2{
+
+    background-image: url('../../../assets/gallery2.jpg');
+}
+
+.card3{
+    
+    background-image: url('../../../assets/gallery3.jpg');
+    
+}
+
+.card4{
+
+    background-image: url('../../../assets/gallery4.jpg');
+    
+}
+.card5{
+
+    background-image: url('../../../assets/gallery5.jpg');
+    
+}
+.card6{
+
+    background-image: url('../../../assets/gallery6.jpg');
+    
+}
+
+
+/* Adding hover effect in card */
+
+.card:hover{
+    transform: translateY(-10px);
+}
+
+

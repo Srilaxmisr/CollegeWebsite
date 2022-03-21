@@ -35,3 +35,14 @@ nav ul li:hover{
     font-weight: bold;
     font-size: 1.2rem;
 }
+.card{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    border:none;
+    padding: 40px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: relative;
+    top: 324px;
+    width: 929px;
+
+}

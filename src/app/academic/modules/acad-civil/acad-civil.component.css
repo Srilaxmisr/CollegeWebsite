@@ -1,0 +1,13 @@
+.wrapper{
+    background: url(../../../../assets/CIVIL.jpg)
+    no-repeat center center;
+    min-height: 28rem;
+    position: relative;
+    right: 325px;
+    top: 8px;
+}
+.container{
+    position: relative;
+    left: 594px;
+    bottom: 437px;
+}
