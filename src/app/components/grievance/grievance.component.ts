@@ -45,8 +45,15 @@ constructor(private fb: FormBuilder, private grievance: GrievanceService, privat
     }, (err) => {
       alert("unable to post")
     })
-
   }
+  // projectList:any=[]
+  // getproject(){
+  //   this.grievance.getproject().subscribe(res=>{
+  //     this.projectList=res;
+  //   })
+  // }
+
+
 
 }
 

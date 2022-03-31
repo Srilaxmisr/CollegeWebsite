@@ -7,12 +7,9 @@ import { HomeComponent } from './components/home/home.component';
 import { GrievanceComponent } from './components/grievance/grievance.component';
 import { GalleryComponent } from './components/gallery/gallery.component';
 import { AboutComponent } from './components/about/about.component';
-import { GrievAUTOComponent } from './components/griev-auto/griev-auto.component';
-import { GrievCIVILComponent } from './components/griev-civil/griev-civil.component';
-import { GrievECComponent } from './components/griev-ec/griev-ec.component';
-import { GrievCSEComponent } from './components/griev-cse/griev-cse.component';
 import { ReactiveFormsModule } from '@angular/forms';
-import {HttpClientModule}from '@angular/common/http'
+import {HttpClientModule}from '@angular/common/http';
+import { ApplyComponent } from './apply/apply.component'
 
 @NgModule({
   declarations: [
@@ -21,10 +18,7 @@ import {HttpClientModule}from '@angular/common/http'
     GrievanceComponent,
     GalleryComponent,
     AboutComponent,
-    GrievAUTOComponent,
-    GrievCIVILComponent,
-    GrievECComponent,
-    GrievCSEComponent
+    ApplyComponent
   ],
   imports: [
     BrowserModule,

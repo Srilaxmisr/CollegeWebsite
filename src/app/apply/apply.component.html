@@ -1,0 +1,60 @@
+
+<div class="wrapper">
+    <!--NAVIGATION-->
+           <nav>
+              <img src="../../../assets/logo.jpg" class="img" alt="logo"> 
+              <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="academic">ACADEMICS</a></li> 
+               <li><a href="grievance">GRIEVANCE</a></li>
+               <li><a href="gallery">GALLERY</a></li>
+               <li><a href="about">ABOUT</a></li>
+                 
+              </ul>
+           </nav>
+    <!--END OF NAVIGATION-->
+          
+       </div>
+  
+  <div class="container" >
+    <div class="card">
+  <form>
+    <div class="form-group ">
+        <label for="exampleFormControlInput1">Name</label>
+        <input id="name" class="form-control"formControlName="name" type="text" placeholder="Enter Name" name="name" required>
+      </div>
+
+      <div class="form-group ">
+        <label for="exampleFormControlInput1">Date of Birth</label>
+        <input id="name" class="form-control"formControlName="name" type="date" placeholder="Enter Name" name="name" required>
+        <!-- Date of Joining: <input type = "date">     -->
+    </div>
+
+      <div class="form-group ">
+        <label for="exampleFormControlInput1">Email address</label>
+        <input id="email" class="form-control"formControlName="email" type="email" placeholder="Enter Email address" name="email" required>
+      </div>
+  
+      <div class="form-group ">
+        <label for="department"> Select Department</label>
+        <select class="form-control" formControlName="department" id="department" name="department">
+          <option>CSE</option>
+          <option>AUTO MOBILE</option>
+          <option>CIVIL</option>
+          <option>ECE</option>
+        </select>
+      </div>
+
+      <div class="form-group ">
+        <label for="exampleFormControlInput1">Address</label>
+        <input id="address" class="form-control"formControlName="address" type="text" placeholder="Enter Address" name="email" required>
+      </div>
+
+      <div class="form-group ">
+        <label for="exampleFormControlInput1">Phone Number</label>
+        <input id="number" class="form-control"formControlName="number" type="number" placeholder="Enter Phone Number" name="email" required>
+      </div>
+      <button  type="submit" label="Submit" class="btn btn-primary btn-lg btn-block">Submit</button>
+    </form>
+  </div>
+  </div>
