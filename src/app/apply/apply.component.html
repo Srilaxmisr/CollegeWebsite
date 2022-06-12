@@ -18,7 +18,7 @@
   
   <div class="container" >
     <div class="card">
-  <form>
+  <form action="" method="post" [formGroup]="applyForm"  (submit)="applyy(applyForm)">
     <div class="form-group ">
         <label for="exampleFormControlInput1">Name</label>
         <input id="name" class="form-control"formControlName="name" type="text" placeholder="Enter Name" name="name" required>
@@ -26,8 +26,8 @@
 
       <div class="form-group ">
         <label for="exampleFormControlInput1">Date of Birth</label>
-        <input id="name" class="form-control"formControlName="name" type="date" placeholder="Enter Name" name="name" required>
-        <!-- Date of Joining: <input type = "date">     -->
+        <input id="name" class="form-control"formControlName="dob" type="date" placeholder="Enter DOB" name="dob" required>
+        
     </div>
 
       <div class="form-group ">
@@ -54,7 +54,7 @@
         <label for="exampleFormControlInput1">Phone Number</label>
         <input id="number" class="form-control"formControlName="number" type="number" placeholder="Enter Phone Number" name="email" required>
       </div>
-      <button  type="submit" label="Submit" class="btn btn-primary btn-lg btn-block">Submit</button>
+      <button  type="submit" label="Submit" class="btn btn-primary btn-lg btn-block" [disabled]="!applyForm.valid">Submit</button>
     </form>
   </div>
   </div>

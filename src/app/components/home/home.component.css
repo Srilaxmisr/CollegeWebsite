@@ -130,7 +130,36 @@ footer{
     padding: 1.2rem;
     margin-top: 10%;
 }
-
+.founder{
+    margin-left: 247px;
+    margin-top: -167px;
+}
+.vision{
+    text-align: center;
+    
+}
+.vision_text{
+    margin-left: 245px;
+    margin-top: -200px;
+}
+.p1{
+    margin-left: 524px;
+}
+.im{
+    margin-top: -32px;
+}
+.scroll{
+    margin-top: 10%;
+}
+.name1{
+    margin-left: 3%;
+}
+.sitter{
+    margin-top: 6%;
+}
+.dte{
+    margin-top:0%;
+}
 
 
 /*THE END*/

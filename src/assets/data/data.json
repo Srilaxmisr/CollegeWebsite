@@ -42,5 +42,16 @@
       "id": 7
     }
   ],
+  "datas": [
+    {
+      "name": "xyz",
+      "dob": "2022-06-08",
+      "email": "srilaxmy761@gmail.com",
+      "department": "CSE",
+      "address": "bhhgfgd",
+      "number": 8765435678,
+      "id": 1
+    }
+  ],
   "comments": []
 }
