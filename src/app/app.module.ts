@@ -7,9 +7,11 @@ import { HomeComponent } from './components/home/home.component';
 import { GrievanceComponent } from './components/grievance/grievance.component';
 import { GalleryComponent } from './components/gallery/gallery.component';
 import { AboutComponent } from './components/about/about.component';
-import { ReactiveFormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import {HttpClientModule}from '@angular/common/http';
-import { ApplyComponent } from './apply/apply.component'
+import { ApplyComponent } from './apply/apply.component';
+import { AdminComponent } from './components/admin/admin.component';
+import { AdminviewComponent } from './components/adminview/adminview.component'
 
 @NgModule({
   declarations: [
@@ -18,12 +20,15 @@ import { ApplyComponent } from './apply/apply.component'
     GrievanceComponent,
     GalleryComponent,
     AboutComponent,
-    ApplyComponent
+    ApplyComponent,
+    AdminComponent,
+    AdminviewComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     ReactiveFormsModule,
+    FormsModule,
     HttpClientModule
   ],
   providers: [],

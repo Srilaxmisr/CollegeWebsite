@@ -1,0 +1,60 @@
+
+<div class="wrapper">
+    <nav>
+        <img src="../../../assets/logo.jpg" class="img" alt="logo"> 
+        <ul>
+            <li><a href="#">HOME</a></li>
+                  <li><a href="academic">ACADEMICS</a></li> 
+                 <li><a href="grievance">GRIEVANCE</a></li>
+                 <li><a href="admin">ADMIN</a></li>
+                 <li><a href="gallery">GALLERY</a></li>
+                 <li><a href="about">ABOUT</a></li>
+        </ul>
+     </nav>
+    </div>
+
+    <h3 class="view">GRIVENCES</h3>
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Email Address</th>
+            <th scope="col">Department</th>
+            <th scope="col">Complaint</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let row of adminData">
+           <td>{{row.id}}</td>
+           <td>{{row.email}}</td>
+           <td>{{row.department}}</td>
+           <td>{{row.complaint}}</td>
+        </tr>
+    </tbody>
+</table>
+
+<h3 class="view">APPLICATIONS</h3>
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Name</th>
+            <th scope="col">Date of Birth</th>
+            <th scope="col">Email Address</th>
+            <th scope="col">Department</th>
+            <th scope="col">Address</th>
+            <th scope="col">Contact</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let row of applicationData">
+           <td>{{row.id}}</td>
+           <td>{{row.name}}</td>
+           <td>{{row.dob}}</td>
+           <td>{{row.email}}</td>
+           <td>{{row.department}}</td>
+           <td>{{row.address}}</td>
+           <td>{{row.number}}</td>
+        </tr>
+    </tbody>
+</table>
